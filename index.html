@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>F1 Experience</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="app">
+    <section id="hero">
+      <div class="hero-content">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/F1.svg" alt="F1 Logo" class="f1-logo" />
+        <h1 class="tagline">THE PINNACLE OF MOTORSPORT</h1>
+      </div>
+      <div class="scroll-indicator">
+        <span>SCROLL TO EXPLORE</span>
+        <div class="arrow"></div>
+      </div>
+    </section>
+
+    <section id="explore">
+      <button id="explore-btn" class="btn-primary">
+        GET TO KNOW THE SPORT
+      </button>
+    </section>
+  </div>
+
+  <div id="modal-overlay" class="hidden">
+    <div class="modal-content">
+      <button id="close-modal" class="close-btn">&times;</button>
+      <h2 id="modal-title">CHAMPIONSHIP</h2>
+      <div id="modal-body">
+        <!-- Dynamic Content -->
+      </div>
+    </div>
+  </div>
+  <script src="./main.js"></script>
+</body>
+
+</html>
